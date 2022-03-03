@@ -1,5 +1,5 @@
 # DynaLib-Extraction -  A Dynamic Library Extraction Tool for RAT
-=======
+
 RAT takes a dynamic library which contains user's custom function and extracts the function from the library so that it can be used in RAT and perhaps dynamically load a function from the library.
 
 You must be either of the following to use this tool:
