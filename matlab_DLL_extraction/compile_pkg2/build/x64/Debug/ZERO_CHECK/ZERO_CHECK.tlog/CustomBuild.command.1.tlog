@@ -1,0 +1,10 @@
+^C:\USERS\OBA7931403\DOCUMENTS\TOY\MATLAB_DLL_EXTRACTION\COMPILE_PKG2\BUILD\CMAKEFILES\E0A79BCFFA0D566AA0198D15CED01D1A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/oba7931403/Documents/toy/matlab_DLL_extraction/compile_pkg2 -BC:/Users/oba7931403/Documents/toy/matlab_DLL_extraction/compile_pkg2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/oba7931403/Documents/toy/matlab_DLL_extraction/compile_pkg2/build/MatlabDLL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

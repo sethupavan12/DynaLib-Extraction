@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\oba7931403\Documents\toy\matlab_DLL_extraction\CCodeforCompile\build\CMakeFiles\7db900dec02e3a45d418c38206e24775\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{088F083B-E8D8-317D-8B02-F554D039F9EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\OBA7931403\DOCUMENTS\TOY\C++_DLL_EXTRACTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/oba7931403/Documents/toy/C++_DLL_extraction -BC:/Users/oba7931403/Documents/toy/C++_DLL_extraction/build --check-stamp-file C:/Users/oba7931403/Documents/toy/C++_DLL_extraction/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
